@@ -1,7 +1,7 @@
 (function () {
 
   function extendEach () {
-    var args = Array.prototype.slice.call(arguments),
+    var args  = Array.prototype.slice.call(arguments),
         child = this;
 
     _.each(args, function (proto) {
